@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+h1{
+	color:green;
+	marging :auto;
+}
+#form-div{
+	width:400px;
+	height:150px;
+	background-color: lightgray;
+	box-shadow: 20px 5px gray;
+	margin:auto;
+	margin-top:100px;
+	padding-top: 80px;
+	padding-left: 50px;
+	border:solid 4px green;
+}
+input{
+	margin-bottom: 30px;
+	border-radius: 10px;
+	border:solid 3px lightgreen;
+}
+select{
+	
+}
+button{
+	font-size:30px;
+	margin:auto;
+	margin-top:10px;
+	margin-right: 80px;
+}
+button:hover{
+	background-color:green;
+	color:white;
+	font-size: 35px;
+}html{
+	margin:0px;
+	background-color: #AFAFAF;
+}
+#anwser{
+	width:400px;
+	height:80px;
+	background-color: lightgray;
+	box-shadow: 20px;
+	margin:auto;
+	margin-top:5px;
+	padding-left: 50px;
+	border:solid 4px green;
+	text-align: center;
+	font-size: 50px;
+	padding:0px;
+	overflow: scroll;
+}
