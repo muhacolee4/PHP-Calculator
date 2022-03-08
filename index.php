@@ -47,7 +47,13 @@
 			break;
 		case "divide":echo $input1/$input2;
 		break;
-		case "SQRT":echo (sqrt($input1));
+		case "SQRT":if (empty($input2)) {
+			echo(sqrt($input1));}
+			else{
+		
+				echo(sqrt($input2));   
+			}; 
+										 
 		break;
 		case "Square":echo $input1*$input1;
 		
